@@ -11,8 +11,8 @@
         "craft video embed utility"
     ],
     "support": {
-        "docs": "???",
-        "issues": "???"
+        "docs": "https://github.com/bighoho123/Craft-Video-Embed-Utility",
+        "issues": "https://github.com/bighoho123/Craft-Video-Embed-Utility"
     },
     "license": "MIT",
     "authors": [
@@ -41,7 +41,7 @@
         "schemaVersion": "0.0.1",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "???",
+        "changelogUrl": "https://github.com/bighoho123/Craft-Video-Embed-Utility",
         "components": {
             "craftVideoEmbedUtilityService": "simpleteam\\craftvideoembedutility\\services\\CraftVideoEmbedUtilityService"
         },
