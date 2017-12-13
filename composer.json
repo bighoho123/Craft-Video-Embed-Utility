@@ -1,0 +1,50 @@
+{
+    "name": "simple-team/craft-video-embed-utility",
+    "description": "Craft v3 port for https://github.com/Staplegun-US/craft-video-embed-utility",
+    "type": "craft-plugin",
+    "version": "0.0.1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "craft video embed utility"
+    ],
+    "support": {
+        "docs": "???",
+        "issues": "???"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jinzhe Li",
+            "homepage": "https://simple.com.au"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "simpleteam\\craftvideoembedutility\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Craft Video Embed Utility",
+        "handle": "craft-video-embed-utility",
+        "schemaVersion": "0.0.1",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "???",
+        "components": {
+            "craftVideoEmbedUtilityService": "simpleteam\\craftvideoembedutility\\services\\CraftVideoEmbedUtilityService"
+        },
+        "class": "simpleteam\\craftvideoembedutility\\CraftVideoEmbedUtility"
+    }
+}
