@@ -2,8 +2,6 @@
 
 Craft v3 port for https://github.com/Staplegun-US/craft-video-embed-utility
 
-![Screenshot](resources/img/plugin-logo.png)
-
 ## Requirements
 
 This plugin requires Craft CMS 3.0.0-beta.23 or later.
